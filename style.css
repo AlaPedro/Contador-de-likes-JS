@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    margin: 0 auto;
+    height: 100vh;
+
+    gap: 20px;
+}
+
+.content .like{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.content .like button{
+        width: 100px;
+        height: 30px;
+        border: none;
+        background-color: crimson;
+        border-radius: 12px;
+        color: #Fff;
+        cursor: pointer;
+}
+
+.content .like button:hover {
+    background-color: rgb(182, 17, 50);
+}
+
